@@ -25,4 +25,5 @@ echo "Moving binaries into windows directory"
 `cp -r ./bin ./godot_windows`
 `cp -r ./godot-cpp ./godot_windows`
 `rm -rf ./bin`
+`zip -r godot_windows.zip ./godot_windows`
 echo "Build Completed"
